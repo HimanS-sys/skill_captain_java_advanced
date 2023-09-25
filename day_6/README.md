@@ -14,5 +14,5 @@ You are tasked with implementing a program to update the balance of a bank accou
 
 ## Code
 >To check the .java file:
-* go to day_3/WordCountMultithreading/src.
+* go to day_6/BankBalance/src.
 * click on Main.java file.
