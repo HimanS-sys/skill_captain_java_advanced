@@ -5,4 +5,7 @@ Create a program that reads a directory containing a large number of files and p
 The program should use an ExecutorService to manage the thread pool and submit tasks for each file to be processed concurrently.
 Once all the files have been processed, the program should output the total word count for all the files.
 
-
+## Code
+To check the .java file:
+* go to day_3/WordCountMultithreading/src.
+* click on Main.java file.
