@@ -11,3 +11,8 @@ You are tasked with implementing a program to update the balance of a bank accou
 - Use locks to synchronize the critical section of code that updates the account balance.
 - Ensure that simultaneous transactions do not result in race conditions or inconsistent balance updates.
 - Your task is to implement the necessary classes and synchronization mechanisms to ensure correct and thread-safe execution of the bank account transactions.
+
+## Code
+>To check the .java file:
+* go to day_3/WordCountMultithreading/src.
+* click on Main.java file.
