@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-// Creates a hashmap containing user information for each thread.
+// Class containing user session info
 class UserLoginSession {
     private int userID;
     private String username;
@@ -46,8 +46,13 @@ class UserLoginSession {
 }
 
 public class Main {
+    // Creates a hashmap containing user information for each thread.
     public static ThreadLocal<HashMap<String, UserLoginSession>> threadLocalSession = ThreadLocal.withInitial(() -> new HashMap<>());
+
+    // runs the program
     public static void main(String[] args) {
+
+        // initialize threads
         Thread thread1 = new Thread(() -> {
             UserLoginSession user = new UserLoginSession(1000, "himanshu", "himanshuk@gmail.com");
             user.authenticate();
@@ -72,10 +77,12 @@ public class Main {
 
         });
 
+        // start the threads
         thread1.start();
         thread2.start();
         thread3.start();
 
+        // wait for all the threads to complete running
         try{
             thread1.join();
             thread2.join();
@@ -83,9 +90,12 @@ public class Main {
         } catch(InterruptedException e) {
             System.err.println("Thread execution interrupted: " + e.getMessage());
         }
+
+        // final message
         System.out.println("all threads finished execution");
     }
 
+    // display user session info
     public static void displaySessionInfo(String thread) {
         UserLoginSession user = threadLocalSession.get().get(thread);
         System.out.println("--------------------------------\n" + thread + "\nuser id: " + user.getUserID() + "\nusername: "
