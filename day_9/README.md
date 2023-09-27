@@ -13,3 +13,8 @@ Implement a multi-threaded Java program that simulates a shared shopping cart in
 3. Create an instance of the `ShoppingCart` class and pass it to multiple `CustomerThread` objects.
 4. Ensure that the `ShoppingCart` operations are thread-safe, allowing multiple customers to add and remove items from the cart concurrently without conflicts or data inconsistencies.
 5. Test your program by creating multiple customer threads and observing the changes in the shopping cart contents by calling the `getItems()` method.
+
+## Code
+To check the .java file:
+* go to day_9/SharedShoppingCart/src.
+* click on Main.java file.
