@@ -10,3 +10,8 @@
 - Use the ThreadLocal class to create a separate HashMap for each thread.
 - Use the Thread class to create and run multiple threads.
 - Use the get() and set() methods of the ThreadLocal class to get and set the login session data for each thread.
+
+## Code
+> To check the .java file:
+* go to day_8/LoginSession/src.
+* click on Main.java file.
