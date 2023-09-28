@@ -1,4 +1,4 @@
-# Assignments 8
+# Assignment 8
 
 ## Task
 * Write a Java program to create a ThreadLocal object to store a user's login session data.
