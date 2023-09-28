@@ -1,4 +1,4 @@
-# Assignments
+# Assignment 10
 
 ## Task
 Implement a multi-threaded Java program that simulates a logging system. The program should use the Singleton pattern to ensure that only one instance of the logger exists and can be accessed by multiple threads.
@@ -11,3 +11,9 @@ Implement a multi-threaded Java program that simulates a logging system. The pro
 3. Create multiple instances of the LogWriterThread class and start them concurrently.
 4. Ensure that the Logger class follows the Singleton pattern, allowing only one instance of the logger to exist, and that the logging operations are thread-safe.
 5. Test your program and observe the log messages being written by different threads.
+
+## Code
+> To check the .java file:
+* go to day_10/LoggingSystem/src.
+* click on Main.java file.
+* log file will be generated in day_10/LoggingSystem/logger.txt
