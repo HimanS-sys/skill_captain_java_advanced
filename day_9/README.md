@@ -1,4 +1,4 @@
-# Assignments 9
+# Assignment 9
 
 ## Task
 Implement a multi-threaded Java program that simulates a shared shopping cart in an e-commerce application. The program should utilize a thread-safe data structure to manage the items added to the cart by multiple customers.
