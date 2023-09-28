@@ -1,4 +1,4 @@
-# Assignments:
+# Assignment 7
 
 ## Task
 Create a Java program that simulates a ticket reservation system for a movie theater.
